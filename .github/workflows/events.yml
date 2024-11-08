@@ -4,8 +4,7 @@ name: events
 
 # Controls when the workflow will run
 on:
-  schedule:
-    - cron: "*/5 * * * *"
+  workflow_call:
   #issues:
    # types: [opened, closed, reopened]
   # Triggers the workflow on push or pull request events but only for the "main" branch
